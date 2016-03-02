@@ -1,0 +1,29 @@
+*,*::before,*::after{
+  box-sizing: border-box;
+}
+
+.flex{
+	background-color: salmon;
+	display: flex;
+	flex-direction: column; 
+	margin: 0 auto;
+}
+
+.flex-iten{
+  background-color: white;
+  color: salmon;
+  font-size: 1em;
+  //line-height: 1.5em;
+  margin: 2.5%;
+  width: 95%;
+}
+
+@media (min-width: 700px) and (orientation: landscape) {
+.flex{
+	flex-direction: row; 
+}
+.flex-iten {
+	width: 50%;
+
+}
+}
