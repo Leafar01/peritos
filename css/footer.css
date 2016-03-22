@@ -1,7 +1,13 @@
 .footer{
-	background: #000;
+	background: #9C3;
 	color: #FFF;
 	padding: 1em;
-	position: fixed;
-	bottom: 0;
+}
+
+.footer a {
+	color: #030;
+}
+
+.footer a:hover {
+	color: #FFF;
 }

@@ -1,6 +1,8 @@
 @import 'normalize.css';
-@import 'utils.css';
-@import 'menu.css';
-@import 'footer.css';
+@import 'bootstrap.min.css';
+@import 'type.css';
 @import 'flex.css';
 @import 'grilla.css';
+@import 'utils.css';
+@import 'header.css';
+@import 'footer.css';

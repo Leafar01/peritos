@@ -1,0 +1,17 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed);
+
+.main{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 1.5em;
+}
+
+h1, h2  {
+font-size: 1.7em;
+color: #9C3;
+font-weight: bolder;
+}
+
+h3, h4, h5, h6 {
+font-size: 1.3em;
+
+}

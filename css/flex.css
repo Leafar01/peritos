@@ -3,7 +3,6 @@
 }
 
 .flex{
-	background-color: salmon;
 	display: flex;
 	flex-direction: column; 
 	margin: 0 auto;
@@ -11,19 +10,22 @@
 
 .flex-iten{
   background-color: white;
-  color: salmon;
-  font-size: 1em;
+  color: #333;
+
   //line-height: 1.5em;
-  margin: 2.5%;
-  width: 95%;
+  width: 100%;
+  margin-bottom: 1em;
 }
 
 @media (min-width: 700px) and (orientation: landscape) {
 .flex{
-	flex-direction: row; 
+	flex-direction: row;
+  justify-content: space-between; 
 }
 .flex-iten {
 	width: 50%;
-
+}
+.flex-iten:not(.flex-iten:last-child) {
+  margin-right: 1em;
 }
 }

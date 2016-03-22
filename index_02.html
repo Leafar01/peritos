@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Peritos y Tasadores Asociados</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body ng-app="miAppRouter">
+<div class="main">
+	<header ng-include src="'complements/header.html' ">
+	</header>
+	<nav ng-include src="'complements/menu_b.html' "></nav>
+	<section class="border-box margin-general" ng-view></section>
+	<section class="margin-general" ng-include src="'complements/aside.html' ">
+	</section>
+	<footer>
+		<div ng-include src="'complements/footer.html' "></div>
+	</footer>
+</div>
+	<!--Script de JS -->
+	<script type="text/javascript" src="js/vendor/jquery.js"></script>
+	<script type="text/javascript" src="js/vendor/ui-bootstrap-1.2.4.min.js"></script>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js"></script>
+	<script type="text/javascript" src="js/vendor/angular-route.min.js"></script>
+	<script type="text/javascript" src="js/myApp.js"></script>
+</body>
+</html>

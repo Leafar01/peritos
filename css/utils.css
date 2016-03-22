@@ -4,6 +4,14 @@
 
 .main{
 	width: 100%;
+
+}
+header{
+	position: relative;
+}
+header>{
+	position: absolute;
+	bottom: 0px;
 }
 .img-responsive{
 	width: 100%;
@@ -11,6 +19,67 @@
 }
 
 .logo{
-	width: 25%;
+	width: 100%;
 	height: auto;
+	padding: 1em;
+}
+
+.border-box{
+	border: 1px solid #9C3;
+	padding: 2em;
+}
+.margin-general{
+	margin: 2.5%;
+}
+
+.phone{
+	color: #9C3;
+	font-size: 1.2em;
+}
+
+span.resumen.ng-invalid, div.error {
+        color: red;
+        font-weight: bold;
+        }
+form.validar .ng-invalid.ng-dirty {
+            background-color: lightcoral;
+        }
+
+@media (min-width: 700px) and (orientation: landscape) {
+
+.logo{
+	width: 45%;
+	padding-left: 2em;
+}
+
+.phone{
+	
+	padding-top: 2.5em;
+	font-size: 1,2em;
+}
+
+}
+@media (min-width: 801px) and (orientation: landscape) {
+
+.logo{
+	width: 33%;
+	padding-left: 2em;
+}
+
+.phone{
+	
+	padding-top: 3em;
+	font-size: 1.4em;
+}
+
+}
+@media (min-width: 1900px) and (orientation: landscape) {
+
+
+.phone{
+	
+	padding-top: 3em;
+	font-size: 2em;
+}
+
 }
